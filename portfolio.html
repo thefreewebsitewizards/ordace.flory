@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Flory Pink</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1><a href="index.html" style="text-decoration: none; color: inherit;">Flory Pink</a></h1>
+                    <span>Beauty & Style</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="portfolio-hero-content">
+                <div class="hero-badge">Portfolio</div>
+                <h1>My <span class="highlight">Creative Work</span></h1>
+                <p>Welcome to my digital space — I'm Flory, a model and content creator passionate about beauty, fashion, and storytelling through visuals.</p>
+                <p>With experience in both commercial and creative projects, I specialize in creating bold, elegant, and high-impact content for brands looking to stand out. Whether I'm in front of the lens or curating content behind the scenes, I bring a polished, professional presence with a personal touch.</p>
+                <p>From editorial shoots to social campaigns, I collaborate with brands to deliver visuals that speak — authentic, engaging, and always on-brand.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio portfolio-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Browse My Work</h2>
+            </div>
+            <div class="masonry-grid">
+                <div class="portfolio-item" onclick="openModal('images/1.jpg')" data-size="xlarge">
+                    <img src="images/1.jpg" alt="Portrait - Fashion modeling shot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/2.jpg')" data-size="medium">
+                    <img src="images/2.jpg" alt="Portrait - Street style photography">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/3.jpg')" data-size="large">
+                    <img src="images/3.jpg" alt="Portrait - Glamour makeup look">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/4.jpg')" data-size="small">
+                    <img src="images/4.jpg" alt="Portrait - Professional headshot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/5.jpg')" data-size="medium">
+                    <img src="images/5.jpg" alt="Portrait - Beauty photography">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/6.jpg')" data-size="large">
+                    <img src="images/6.jpg" alt="Portrait - Editorial style shoot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/7.jpg')" data-size="xlarge">
+                    <img src="images/7.jpg" alt="Landscape - Fashion lifestyle shot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/8.jpg')" data-size="small">
+                    <img src="images/8.jpg" alt="Portrait - Creative makeup artistry">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/9.jpg')" data-size="medium">
+                    <img src="images/9.jpg" alt="Portrait - Natural beauty look">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/10.jpg')" data-size="large">
+                    <img src="images/10.jpg" alt="Portrait - Studio photography">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/11.jpg')" data-size="small">
+                    <img src="images/11.jpg" alt="Portrait - Artistic composition">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/12.jpg')" data-size="medium">
+                    <img src="images/12.jpg" alt="Portrait - Fashion editorial">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/13.jpg')" data-size="large">
+                    <img src="images/13.jpg" alt="Portrait - Dramatic lighting portrait">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/14.jpg')" data-size="xlarge">
+                    <img src="images/14.jpg" alt="Portrait - Elegant beauty shot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/15.jpg')" data-size="small">
+                    <img src="images/15.jpg" alt="Portrait - Contemporary fashion">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/16.jpg')" data-size="medium">
+                    <img src="images/16.jpg" alt="Landscape - Outdoor lifestyle shoot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/17.jpg')" data-size="large">
+                    <img src="images/17.jpg" alt="Portrait - Artistic makeup design">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/18.jpg')" data-size="small">
+                    <img src="images/18.jpg" alt="Portrait - Professional beauty">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/19.jpg')" data-size="medium">
+                    <img src="images/19.jpg" alt="Landscape - Fashion campaign shot">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/20.jpg')" data-size="large">
+                    <img src="images/20.jpg" alt="Portrait - Creative styling">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/21.jpg')" data-size="xlarge">
+                    <img src="images/21.jpg" alt="Portrait - Glamour photography">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/22.jpg')" data-size="small">
+                    <img src="images/22.jpg" alt="Landscape - Editorial spread">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/23.jpg')" data-size="medium">
+                    <img src="images/23.jpg" alt="Portrait - Natural light portrait">
+                </div>
+                <div class="portfolio-item" onclick="openModal('images/24.jpg')" data-size="large">
+                    <img src="images/24.jpg" alt="Portrait - High fashion editorial">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Call to Action -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Work Together?</h2>
+                <p>Let's create something beautiful together. I'd love to hear about your next project!</p>
+                <a href="index.html#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <h2>Flory Pink</h2>
+                        <p>Beauty & Style</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/ordace.flory?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== " aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Flory Pink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
